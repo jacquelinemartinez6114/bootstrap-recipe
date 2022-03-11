@@ -1,0 +1,42 @@
+html{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body {
+    background-image: url(/img/knife.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    color: #ffffff;
+}
+
+.jumbotron1{
+    background-image: url(https://purewows3.imgix.net/images/articles/2018_07/15-minute-skillet-pepper-steak-recipe-921.jpg?auto=format,compress&cs=strip);
+    background-image: 100%;
+    background-size: 1250px;
+    background-color: rgba(216, 216, 216, 0.842);
+}
+
+.jumbotron{
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container-hero{
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+
+ 
+
+.td-nutri{
+    width: 500px;
+}
+
+table{
+    background-color: #ffffffc2;
+}

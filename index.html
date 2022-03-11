@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<!-- FontAwesome -->
+<script src="https://kit.fontawesome.com/2339a5cf78.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="css\styles.css">
+
+
+    <title>Bootstrap easy recipe</title>
+</head>
+<body>
+    
+<!-- Sticky navbar with Offcanvas body -->
+<div class="">
+    <nav class="navbar sticky-top d-flex navbar-dark bg-dark">
+
+      <div class="container-fluid ms-lg-4">
+        <a class="navbar-brand justify" href="">LOGO</a>
+      
+        <button class="navbar-toggler me-lg-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end bg-dark text-light" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h1 class="offcanvas-title " id="offcanvasNavbarLabel">Menu</h1>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active text-light menutext" aria-current="page" href="index.html" style="font-size: 22px;">Home</a>
+              </li>
+              <li class="nav-item mt-3">
+                <a class="nav-link menutext" href="about.html" style="font-size: 22px;">About</a>
+              </li>
+              <li class="nav-item mt-3 dropdown">
+                <a class="nav-link dropdown-toggle menutext" href="gallery.html" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 22px;">
+                  Recipes
+                </a>
+                <ul class="dropdown-menu menutext" aria-labelledby="offcanvasNavbarDropdown">
+                  <li><a class="dropdown-item" href="gallery.html">Breakfast</a></li>
+                  <li><a class="dropdown-item" href="gallery.html">Dinner</a></li></ul>
+                  
+            </ul>
+            <form class="d-flex">
+              <input class="form-control mt-3 me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+<!-- Sticky navbar with Offcanvas body END -->
+
+
+
+
+ <!-- JUMBOTRON 1  -->
+ <div class="row-cols-1 d-flex jumbotron jumbotron1">
+    <div class="col d-flex align-items-center text-center text-light">
+      <div class="container container-hero p-3">
+        <h1 class="" style="font-size: 65px;">15-Minute Skillet Pepper Steak</h1>
+        
+        <a class="text-light" style="text-decoration: solid; font-size: 24px;">By PureWowEditors</a>
+        
+        <div class="pt-4">
+            <a href="https://www.purewow.com/recipes/fifteen-minute-skillet-pepper-steak"target="_blank">
+                <button class="btn text-light border">Learn More</button>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END JUMBOTRON 1 -->
+
+
+
+    <div class="text-center pt-3 border-2 border-dark border-bottom bg-dark pb-3 text-light">
+   
+    <span class="pt-3">PHOTO: Liz Andrew/Styling: Erin McDowell</span>
+    </div>
+<!-- End of recipe name and picture -->
+    
+
+
+
+
+
+
+<!-- Start of Ingredients check list -->
+
+           <div class="container pt-5 mt-5 text-dark">
+            <h1 class="p-1">Ingredients:</h1>
+            <h3 class="p-1">4 servings</h3>            
+            <table class="table table-bordered">
+              <thead>
+                <tr class="text-center">
+                  <th>Check List</th>
+                  <th>Measurements</th>
+                  <th>Items</th>
+                </tr>
+              </thead>
+              <tbody class="">
+                <tr>
+                  <td class="text-center">
+                    <input type="checkbox" id="scales" name="scales"
+                           checked>
+                    <label for="scales"></label></td>
+                  <td>12 ounces</td>
+                  <td>top round beef, thinly sliced</td>
+                </tr>
+                <tr>
+                    <td class="text-center">
+                        <input type="checkbox" id="scales" name="scales"
+                               checked>
+                        <label for="scales"></label></td>
+                  <td>to taste</td>
+                  <td>Kosher salt and freshly ground black pepper</td>
+                </tr>
+                <tr>
+                    <td class="text-center">
+                        <input type="checkbox" id="scales" name="scales"
+                               checked>
+                        <label for="scales"></label></td>
+                  <td>2 tablespoons</td>
+                  <td>peanut oil (or other neutral oil), divided</td>
+                </tr>
+                <tr>
+                    <td class="text-center">
+                        <input type="checkbox" id="scales" name="scales"
+                               checked>
+                        <label for="scales"></label></td>
+                    <td>1 tablespoon</td>
+                    <td>soy sauce</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center">
+                        <input type="checkbox" id="scales" name="scales"
+                               checked>
+                        <label for="scales"></label></td>
+                    <td>1 tablespoon</td>
+                    <td>rice wine vinegar</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center">
+                        <input type="checkbox" id="scales" name="scales"
+                               checked>
+                        <label for="scales"></label></td>
+                    <td>1 1/2 teaspoons</td>
+                    <td>crushed red-pepper flakes</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center">
+                        <input type="checkbox" id="scales" name="scales"
+                               checked>
+                        <label for="scales"></label></td>
+                    <td>1 whole</td>
+                    <td>red bell pepper, thinly sliced</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center">
+                        <input type="checkbox" id="scales" name="scales"
+                               checked>
+                        <label for="scales"></label></td>
+                    <td>1 whole</td>
+                    <td>yellow bell pepper, thinly sliced</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center">
+                        <input type="checkbox" id="scales" name="scales"
+                               checked>
+                        <label for="scales"></label></td>
+                    <td>1 whole</td>
+                    <td>red bell pepper, thinly sliced</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center">
+                        <input type="checkbox" id="scales" name="scales"
+                               checked>
+                        <label for="scales"></label></td>
+                    <td>1 whole</td>
+                    <td>green bell pepper, thinly sliced</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center">
+                        <input type="checkbox" id="scales" name="scales"
+                               checked>
+                        <label for="scales"></label></td>
+                    <td>1 whole</td>
+                    <td>green orange bell pepper, thinly sliced</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center">
+                        <input type="checkbox" id="scales" name="scales"
+                               checked>
+                        <label for="scales"></label></td>
+                    <td>3</td>
+                    <td>garlic cloves, minced</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center">
+                        <input type="checkbox" id="scales" name="scales"
+                               checked>
+                        <label for="scales"></label></td>
+                    <td>1 bunch</td>
+                    <td>scallions, thinly sliced</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center">
+                        <input type="checkbox" id="scales" name="scales"
+                               checked>
+                        <label for="scales"></label></td>
+                    <td>as needed</td>
+                    <td>sesame seeds, as needed for finishing</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+
+<!-- End of Ingredient bulleted list -->
+
+
+
+<!-- Directions checklist -->
+    <div class="container pt-5 mt-5 text-dark">
+        <h1 class="p-1">Directions:</h1>          
+        <table class="table table-bordered">
+          <thead>
+            <tr class="text-center">
+              <th>Check List</th>
+              <th>Steps</th>
+            </tr>
+          </thead>
+          <tbody class="">
+            <tr>
+              <td class="text-center">
+                <input type="checkbox" id="scales" name="scales"
+                       checked>
+                <label for="scales"></label></td>
+              <td> 1). Season the steak with salt and pepper. In a large skillet, heat 1 tablespoon of the oil over medium-high heat. Add the steak to the skillet and stir-fry until browned on the exterior but not fully cooked, about 2 minutes.</td>
+              
+            </tr>
+            <tr>
+                <td class="text-center">
+                    <input type="checkbox" id="scales" name="scales"
+                           checked>
+                    <label for="scales"></label></td>
+              <td>2). Transfer the steak to a medium bowl. Add the soy sauce, rice wine vinegar and crushed red-pepper flakes. Toss well to combine.</td>
+           
+            </tr>
+            <tr>
+                <td class="text-center">
+                    <input type="checkbox" id="scales" name="scales"
+                           checked>
+                    <label for="scales"></label></td>
+              <td>3). In the same skillet, heat the remaining 1 tablespoon oil over medium heat. Add the peppers in an even layer. Cook, tossing occasionally, until just tender, about 4 minutes.</td>
+              
+            </tr>
+            <tr>
+                <td class="text-center">
+                    <input type="checkbox" id="scales" name="scales"
+                           checked>
+                    <label for="scales"></label></td>
+                <td>4). Push the peppers to one side of the skillet and return the steak to the other side of the skillet. Cook for 2 minutes. Stir the garlic into the peppers and cook for 1 minute more.</td>
+                
+              </tr>
+              <tr>
+                <td class="text-center">
+                    <input type="checkbox" id="scales" name="scales"
+                           checked>
+                    <label for="scales"></label></td>
+                <td>5). Garnish the steak with scallions and sesame seeds. Serve immediately.</td>
+                
+              </tr>
+              <tr>
+          </tbody>
+        </table>
+      </div>
+<!-- Directions check list END -->
+
+
+
+<!-- Start of Nutritional check list -->
+
+<div class="container pt-5 mt-5 container-nutri pb-5 text-dark">
+  <h1 class=>Nutritional Info:</h1>          
+  <table class="table table-bordered">
+    <tbody class="text-center td-nutri">
+      <tr>
+        <td class="text-center td-nutri">
+            226</td>
+        <td>calories</td>
+      </tr>
+      <tr>
+        <td class="text-center td-nutri">
+            11g</td>
+        <td>fat</td>
+      </tr>
+      <tr>
+        <td class="text-center td-nutri">
+            12g</td>
+        <td>carbs</td>
+      </tr>
+      <tr>
+        <td class="text-center td-nutri">
+            21g</td>
+        <td>protein</td>
+      </tr>
+        <tr>
+          <td class="text-center td-nutri">
+              4g</td>
+          <td>sugars</td>
+        </tr>
+    </tbody>
+  </table>
+</div>
+   
+<!-- END of Nutritional check list -->
+
+
+
+</div>
+
+
+
+
+<!-- FOOTER START -->
+
+<footer class="text-center text-light" style="background-color: #212529;">
+  <!-- Grid container -->
+  <div class="container pt-4">
+    <p><h5 class="text-light pb-3">Looking for the source of the recipe and more? <a href="https://www.purewow.com/recipes/fifteen-minute-skillet-pepper-steak" target="_blank">Click Here</a></h5>
+    </p>
+
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-light m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-light m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-light m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-light m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-light m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-light m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: #ccccccc0">
+    © 2022 Basic HTML/Bootstrap Recipe Practice Page
+    <a class="text-dark" href="https://www.purewow.com/recipes/fifteen-minute-skillet-pepper-steak" target="_blank">PowWow Recipes</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+<!-- FOOTER END -->
+
+
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+
+
+
+</body>
+</html>
